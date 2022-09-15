@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(164, 72, 250);
+    color: rgb(23, 17, 17);
+    font-size: smaller;
+    font-family: cursive;
+    margin: 50px;
+}
+
+#suma, #resta, #divi, #multi{
+    color: white;
+}
