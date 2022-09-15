@@ -1,8 +1,9 @@
+let num1 = parseInt(prompt("Introduzca el primer número"));
+let num2 = parseInt(prompt("Introduzca el segundo número"));
+let num3 = parseInt(prompt("Introduzca el tercer número"));
+let num4 = parseInt(prompt("Introduzca el cuarto número"));
 
-let lado1 = parseInt(prompt("Introduzca el primer lado"));
-let lado2 = parseInt(prompt("Introduzca el segundo lado"));
+let media = (num1+num2+num3+num4)/4;
 
-let área = lado1*lado2;
-
-document.getElementById('área').innerHTML+=área;
+document.getElementById('media').innerHTML=media;
 
