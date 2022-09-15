@@ -1,9 +1,10 @@
-let pi = Math.PI;
-let radio = parseFloat(prompt("Introduzca el radio"));
+let km = 2;
+let min = 5;
+let mm = 2*1000;
+let seg = 5*60;
 
-let area = pi*Math.pow(radio,2);
-let long = 2*pi*radio;
+let velocidad = km/min;
 
-document.getElementById('area').innerHTML=area;
-document.getElementById('long').innerHTML=long;
-
+document.getElementById('velocidad').innerHTML=velocidad + "m/s";
+document.getElementById('mm').innerHTML=mm;
+document.getElementById('seg').innerHTML=seg;
