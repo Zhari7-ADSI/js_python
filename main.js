@@ -1,7 +1,9 @@
-let base = parseInt(prompt("Introduzca la base"));
-let altura = parseInt(prompt("Introduzca la altura"));
+let pi = Math.PI;
+let radio = parseFloat(prompt("Introduzca el radio"));
 
-let area = (base * altura)/2;
+let area = pi*Math.pow(radio,2);
+let long = 2*pi*radio;
 
 document.getElementById('area').innerHTML=area;
+document.getElementById('long').innerHTML=long;
 
