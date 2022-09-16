@@ -6,6 +6,6 @@ body {
     margin: 50px;
 }
 
-#vol {
+#total, #subt {
     color: white;
 }
