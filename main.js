@@ -1,9 +1,8 @@
-let pi = Math.PI;
-let radio = parseFloat(prompt("Ingrese el radio"));
-let altura = parseFloat(prompt("Ingrese la altura"));
+let a = parseFloat(prompt("Ingrese el número de la a"));
+let b = parseFloat(prompt("Ingrese el número de la b"));
+let c = parseFloat(prompt("Ingrese el número de la c"));
+const x = 7;
 
-let area = (2 * (pi * Math.pow(radio,2))) + ((2 * pi * radio) * altura);
-let volumen = (pi * Math.pow(radio,2)) * altura;
+let oper = a * Math.pow(x,2) +b * x + c;
 
-document.getElementById('area').innerHTML=area;
-document.getElementById('volumen').innerHTML=volumen;
+document.getElementById('oper').innerHTML=oper;
