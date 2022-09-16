@@ -1,6 +1,7 @@
-let pi = Math.PI;
-let radio = parseFloat(prompt("Ingrese el radio"));
+let a = parseInt(prompt("Ingrese el número de a"));
+let b = parseInt(prompt("Ingrese el número de b"));
+let c = parseInt(prompt("Ingrese el número de c"));
 
-let volumen = 4/3 * pi * Math.pow(radio, 3);
+let expresion =  (a+7*c)/(b+2-a)+2*b;
 
-document.getElementById('volumen').innerHTML=volumen;
+document.getElementById('expresion').innerHTML=expresion;
