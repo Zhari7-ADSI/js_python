@@ -1,10 +1,7 @@
-let kms = parseInt(prompt("Ingrese la cantidad de kilometros"));;
-let hrs = parseInt(prompt("Ingrese la cantidad de horas"));
+let med = parseInt(prompt("Ingrese el costo del medicamento"));
 
-let m= kms * 1000;
-let s = hrs * 3600;
-let vel = m/s;
+let descuento= med * 0.10;
+let pFin =  med - descuento;
 
-document.getElementById('m').innerHTML=m + "m";
-document.getElementById('s').innerHTML=s + "seg";
-document.getElementById('vel').innerHTML=vel + "m/s";
+document.getElementById('descuento').innerHTML=descuento;
+document.getElementById('pFin').innerHTML=pFin;
