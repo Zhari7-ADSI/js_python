@@ -1,10 +1,8 @@
-let vent1 = parseInt(prompt("Ingrese el valor de la venta 1"));
-let vent2 = parseInt(prompt("Ingrese el valor de la venta 2"));
-let vent3 = parseInt(prompt("Ingrese el valor de la venta 3"));
-let sueld = parseInt(prompt("Ingrese su sueldo"));
+let nota1 = parseInt(prompt("Ingrese la nota 1"));
+let nota2 = parseInt(prompt("Ingrese la nota 2"));
+let nota3 = parseInt(prompt("Ingrese la nota 3"));
+let nota4 = parseInt(prompt("Ingrese la nota 4"));
 
-let iva = (vent1 + vent2 + vent3) *0.10;
-let sueldo = iva + vent1 + vent2 + vent3 + sueld;
+let prom = (nota1 + nota2 + nota3 + nota4) /4;
 
-document.getElementById('iva').innerHTML=iva;
-document.getElementById('sueldo').innerHTML=sueldo;
+document.getElementById('prom').innerHTML=prom;
