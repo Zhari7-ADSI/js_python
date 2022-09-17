@@ -1,6 +1,15 @@
-let grados = parseInt(prompt("Ingrese los grados celsius"));
+let parc1 = parseInt(prompt("Ingrese la nota del parcial 1"));
+let parc2 = parseInt(prompt("Ingrese la nota del parcial 2"));
+let parc3 = parseInt(prompt("Ingrese la nota del parcial 3"));
+let exFinal = parseInt(prompt("Ingrese la nota del examen final"));
+let trabFinal = parseInt(prompt("Ingrese la nota del trabajo final"));
 
-let fahren = (grados * (9/5)) + 32;
+let promFinal = ((parc1 + parc2 + parc3)/3) * 0.55;
+let promEx = exFinal *0.3;
+let promTrab =trabFinal * 0.15; 
+let promMate = (promFinal + promEx + promTrab)/3;
 
-document.getElementById('fahren').innerHTML=fahren;
-document.getElementById('grados').innerHTML=grados;
+document.getElementById('promFinal').innerHTML=promFinal;
+document.getElementById('promMate').innerHTML=promMate;
+document.getElementById('promEx').innerHTML=promEx;
+document.getElementById('promTrab').innerHTML=promTrab;
