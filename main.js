@@ -1,15 +1,8 @@
-let parc1 = parseInt(prompt("Ingrese la nota del parcial 1"));
-let parc2 = parseInt(prompt("Ingrese la nota del parcial 2"));
-let parc3 = parseInt(prompt("Ingrese la nota del parcial 3"));
-let exFinal = parseInt(prompt("Ingrese la nota del examen final"));
-let trabFinal = parseInt(prompt("Ingrese la nota del trabajo final"));
+let iva = parseInt(prompt("Ingrese el iva sin el porcentaje"));
+let prod = parseInt(prompt("Ingrese el precio del producto "));
 
-let promFinal = ((parc1 + parc2 + parc3)/3) * 0.55;
-let promEx = exFinal *0.3;
-let promTrab =trabFinal * 0.15; 
-let promMate = (promFinal + promEx + promTrab)/3;
+let pago = (iva/100) * prod;
+let pagTot = pago + prod;
 
-document.getElementById('promFinal').innerHTML=promFinal;
-document.getElementById('promMate').innerHTML=promMate;
-document.getElementById('promEx').innerHTML=promEx;
-document.getElementById('promTrab').innerHTML=promTrab;
+document.getElementById('pago').innerHTML=pago;
+document.getElementById('pagTot').innerHTML=pagTot;
