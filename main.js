@@ -1,7 +1,6 @@
-let med = parseInt(prompt("Ingrese el costo del medicamento"));
+let grados = parseInt(prompt("Ingrese los grados celsius"));
 
-let descuento= med * 0.10;
-let pFin =  med - descuento;
+let fahren = (grados * (9/5)) + 32;
 
-document.getElementById('descuento').innerHTML=descuento;
-document.getElementById('pFin').innerHTML=pFin;
+document.getElementById('fahren').innerHTML=fahren;
+document.getElementById('grados').innerHTML=grados;
